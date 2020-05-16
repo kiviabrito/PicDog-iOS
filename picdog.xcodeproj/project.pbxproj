@@ -171,6 +171,13 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		5B4DF808246F5E4800E4E73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
 		5BEC6461246D997800242D63 = {
 			isa = PBXGroup;
 			children = (
@@ -192,17 +199,18 @@
 		5BEC646C246D997800242D63 /* picdog */ = {
 			isa = PBXGroup;
 			children = (
-				5B2878DF246E1890007BD374 /* model */,
 				5B2878DE246E186F007BD374 /* utility */,
+				5B2878DF246E1890007BD374 /* model */,
 				5B2878C9246DECB3007BD374 /* fonts */,
 				5BEC6486246DAA5300242D63 /* main */,
 				5B4DF7F6246EEDFC00E4E73D /* auth */,
+				5B4DF804246F283000E4E73D /* SplashViewController.swift */,
 				5BEC646D246D997800242D63 /* AppDelegate.swift */,
 				5BEC646F246D997800242D63 /* SceneDelegate.swift */,
 				5BEC6478246D997A00242D63 /* Assets.xcassets */,
 				5BEC647A246D997A00242D63 /* LaunchScreen.storyboard */,
 				5BEC647D246D997A00242D63 /* Info.plist */,
-				5B4DF804246F283000E4E73D /* SplashViewController.swift */,
+				5B4DF808246F5E4800E4E73D /* Products */,
 			);
 			path = picdog;
 			sourceTree = "<group>";
