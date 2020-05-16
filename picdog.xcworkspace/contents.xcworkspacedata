@@ -7,4 +7,19 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:README.en.md">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:README.pt.md">
+   </FileRef>
+   <FileRef
+      location = "group:Screenshot_AuthViewController.png">
+   </FileRef>
+   <FileRef
+      location = "group:Screenshot_MainViewController.png">
+   </FileRef>
 </Workspace>
