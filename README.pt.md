@@ -1,4 +1,4 @@
-# PicDog para Android - Kotlin
+# PicDog para iOS - Swift 5
 
 ## Funcionalidade
 
