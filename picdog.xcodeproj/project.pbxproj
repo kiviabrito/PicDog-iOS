@@ -11,7 +11,6 @@
 		5B2878C8246DEC94007BD374 /* ArchitectsDaughter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B2878C7246DEC94007BD374 /* ArchitectsDaughter-Regular.ttf */; };
 		5B2878CD246DFE06007BD374 /* DogPictureCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878CC246DFE06007BD374 /* DogPictureCellView.swift */; };
 		5B2878D1246E16B0007BD374 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878D0246E16B0007BD374 /* MainViewModel.swift */; };
-		5B2878D9246E1799007BD374 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878D8246E1799007BD374 /* Observable.swift */; };
 		5B2878DD246E1863007BD374 /* AppDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878DC246E1863007BD374 /* AppDataBase.swift */; };
 		5B2878E2246E18C6007BD374 /* FeedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878E1246E18C6007BD374 /* FeedEntity.swift */; };
 		5B2878E4246E18E1007BD374 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2878E3246E18E1007BD374 /* UserEntity.swift */; };
@@ -30,6 +29,7 @@
 		5B4DF803246F25DB00E4E73D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DF802246F25DB00E4E73D /* MainView.swift */; };
 		5B4DF805246F283000E4E73D /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DF804246F283000E4E73D /* SplashViewController.swift */; };
 		5B4DF807246F2AEF00E4E73D /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DF806246F2AEF00E4E73D /* AuthViewModel.swift */; };
+		5BD46189246F78830025DC3A /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD46188246F78830025DC3A /* Observable.swift */; };
 		5BEC646E246D997800242D63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC646D246D997800242D63 /* AppDelegate.swift */; };
 		5BEC6470246D997800242D63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC646F246D997800242D63 /* SceneDelegate.swift */; };
 		5BEC6479246D997A00242D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEC6478246D997A00242D63 /* Assets.xcassets */; };
@@ -44,7 +44,6 @@
 		5B2878C7246DEC94007BD374 /* ArchitectsDaughter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ArchitectsDaughter-Regular.ttf"; sourceTree = "<group>"; };
 		5B2878CC246DFE06007BD374 /* DogPictureCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPictureCellView.swift; sourceTree = "<group>"; };
 		5B2878D0246E16B0007BD374 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		5B2878D8246E1799007BD374 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = ../Observable.swift; sourceTree = "<group>"; };
 		5B2878DC246E1863007BD374 /* AppDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDataBase.swift; path = ../AppDataBase.swift; sourceTree = "<group>"; };
 		5B2878E1246E18C6007BD374 /* FeedEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedEntity.swift; sourceTree = "<group>"; };
 		5B2878E3246E18E1007BD374 /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
@@ -63,6 +62,7 @@
 		5B4DF802246F25DB00E4E73D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5B4DF804246F283000E4E73D /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		5B4DF806246F2AEF00E4E73D /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		5BD46188246F78830025DC3A /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = "/Users/kivia/Documents/GitRepository/PicDog App/iOS/picdog/utility/Observable.swift"; sourceTree = "<absolute>"; };
 		5BEC646A246D997800242D63 /* picdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEC646D246D997800242D63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BEC646F246D997800242D63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		5B2878DE246E186F007BD374 /* utility */ = {
 			isa = PBXGroup;
 			children = (
-				5B2878D8246E1799007BD374 /* Observable.swift */,
+				5BD46188246F78830025DC3A /* Observable.swift */,
 				5B2878DC246E1863007BD374 /* AppDataBase.swift */,
 				5B2878EF246E1B7F007BD374 /* Extentions.swift */,
 				5B2878F1246E2972007BD374 /* ClientApi.swift */,
@@ -363,9 +363,9 @@
 				5B4DF801246EF36D00E4E73D /* Protocols.swift in Sources */,
 				5BEC646E246D997800242D63 /* AppDelegate.swift in Sources */,
 				5BEC6470246D997800242D63 /* SceneDelegate.swift in Sources */,
-				5B2878D9246E1799007BD374 /* Observable.swift in Sources */,
 				5B2878E4246E18E1007BD374 /* UserEntity.swift in Sources */,
 				5B2878DD246E1863007BD374 /* AppDataBase.swift in Sources */,
+				5BD46189246F78830025DC3A /* Observable.swift in Sources */,
 				5B2878F2246E2972007BD374 /* ClientApi.swift in Sources */,
 				5B2878F4246E2B17007BD374 /* FeedResponse.swift in Sources */,
 				5B4DF7FE246EEF0F00E4E73D /* GradienteView.swift in Sources */,
