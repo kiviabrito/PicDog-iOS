@@ -1,4 +1,4 @@
-# PicDog Android App - Kotlin
+# PicDog Android App - Swift 5
 
 ## English
 
